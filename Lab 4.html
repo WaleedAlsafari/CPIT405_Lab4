@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Auto Parts - Order Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Great Auto Parts - Order Form</h1>
+        <form>
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" placeholder="Enter your first name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" placeholder="Enter your last name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="make">Make:</label>
+                <input type="text" id="make" placeholder="Make" required>
+            </div>
+
+            <div class="form-group">
+                <label for="model">Model:</label>
+                <input type="text" id="model" placeholder="Model" required>
+            </div>
+
+            <div class="form-group">
+                <label for="year">Year:</label>
+                <input type="number" id="year" placeholder="Year" min="1900" max="2024" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="date" id="date" required>
+            </div>
+
+            <div class="form-group">
+                <label for="sparePart">Spare Part:</label>
+                <input type="text" id="sparePart" placeholder="Enter the spare part you need" required>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" placeholder="Enter the quantity of the spare part you need" min="1"
+                    required>
+            </div>
+
+            <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea id="comment" placeholder="Enter your comment" rows="4"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
